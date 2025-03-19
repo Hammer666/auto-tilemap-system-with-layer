@@ -1,0 +1,9 @@
+[gd_resource type="NoiseTexture2D" load_steps=3 format=3 uid="uid://ufax36a858hf"]
+
+[sub_resource type="Gradient" id="Gradient_xadyx"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_ml60e"]
+
+[resource]
+color_ramp = SubResource("Gradient_xadyx")
+noise = SubResource("FastNoiseLite_ml60e")
